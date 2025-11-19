@@ -1,0 +1,133 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                  CSV FILE SUPPORT - READY TO USE! ✅                 ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🎉 GREAT NEWS! Your scraper now works with BOTH formats:
+   ✅ Excel files (.xlsx)
+   ✅ CSV files (.csv)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 HOW TO USE WITH CSV:
+
+1️⃣  Save your Excel file as CSV:
+   • Open "Post Tracker.xlsx" in Excel
+   • File → Save As
+   • Choose "CSV UTF-8 (Comma delimited) (*.csv)"
+   • Save as "Post Tracker.csv"
+
+2️⃣  Run the scraper (same as before!):
+   • Double-click "RUN_SCRAPER.bat"
+   
+3️⃣  The scraper automatically detects your file:
+   ✓ Found "Post Tracker.csv"? → Uses CSV
+   ✓ Found "Post Tracker.xlsx"? → Uses Excel
+   
+4️⃣  Results are saved in the SAME format:
+   • CSV input → CSV output
+   • Excel input → Excel output
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 QUICK START (CSV):
+
+Just double-click: RUN_SCRAPER.bat
+
+The script will:
+1. Look for "Post Tracker.csv" first
+2. If not found, look for "Post Tracker.xlsx"
+3. Automatically use whichever file it finds!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 EXAMPLE WITH YOUR CSV:
+
+Your CSV file should look like:
+┌─────────────────────────────────────────┐
+│ https://x.com/user/status/123...        │
+│ https://x.com/user/status/456...        │
+│ https://x.com/user/status/789...        │
+└─────────────────────────────────────────┘
+
+After scraping, it becomes:
+┌──────────────────────────┬──────────┬─────────┬───────┐
+│ URL                      │ Username │ Text    │ Likes │
+├──────────────────────────┼──────────┼─────────┼───────┤
+│ https://x.com/user/12... │ @user    │ Tweet 1 │ 1.5K  │
+│ https://x.com/user/45... │ @user2   │ Tweet 2 │ 892   │
+│ https://x.com/user/78... │ @user3   │ Tweet 3 │ 2.1K  │
+└──────────────────────────┴──────────┴─────────┴───────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 TIPS FOR CSV FILES:
+
+✅ GOOD CSV FORMAT:
+   • First column has Twitter/X links
+   • UTF-8 encoding (recommended)
+   • Comma-delimited
+   • Headers in first row (optional)
+
+⚠️ THINGS TO CHECK:
+   • File name is exactly: "Post Tracker.csv"
+   • Links are in the first column
+   • File is in the same folder as the scripts
+   • No special characters causing issues
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 WHICH FORMAT IS BETTER?
+
+CSV:
+✅ Faster to load
+✅ Smaller file size
+✅ Works with more programs
+✅ Easier to edit in text editor
+
+Excel:
+✅ Better formatting options
+✅ Can have multiple sheets
+✅ Better for complex data
+
+For web scraping → CSV is usually FASTER and easier!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 PROCESSING ALL LINKS:
+
+To scrape ALL links in your CSV:
+
+1. Double-click RUN_SCRAPER.bat
+2. Choose option [4] - "All Tweets"
+3. Confirm when prompted
+4. Wait for completion
+5. Open the output CSV file!
+
+Time estimate: ~3-5 seconds per link
+100 links ≈ 5-8 minutes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 WHAT CHANGED:
+
+All scripts now:
+✅ Auto-detect file format (.xlsx or .csv)
+✅ Read both Excel and CSV files
+✅ Save output in same format as input
+✅ Support UTF-8 encoding for international characters
+✅ Work with any column structure
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ READY TO SCRAPE ALL YOUR LINKS!
+
+Just run: RUN_SCRAPER.bat
+
+Then choose:
+   [4] All Tweets - To process everything in your CSV!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Questions? Check QUICK_START_GUIDE.md for more details!
+
+Happy scraping! 🚀
